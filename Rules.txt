@@ -13,7 +13,7 @@ This includes diagonals, horizontals, and verticals
 
 -New 3-in-a-row sets cannot be attached to locked sets
 
--Locked sets cannot be affected by item affects (subject to change)
+-Locked sets cannot be affected by item affects (With exceptions. Subject to change)
 
 -A player is allowed to have up to 2 items in their possession. 
 At the beginning of each turn a player has the option to random an item. An item would be chosen at random and the player 
@@ -25,7 +25,48 @@ the players turn, the player isn't allowed to do both during the same turn.
 
 Items:
 
--bomb
--super bomb
--teleporter
--
+Items are randomly selected for the players. Some items have a higher probability of being chosen than others, as the 
+others are clearly better.
+
+-bomb: destroys any non-locked moves within a 1 space radius
+
+-super bomb: destroys any non-locked moves within a 2 space radius 
+
+-teleporter: Moves any non-locked move to a location of the players chosing. If the chosen space is occupied, 
+the moves switch spaces.
+
+-Silence: Prevents player's opponents from using any items during their turn
+
+-Turret: Place on an empty space. Destroys any new opponent moves within a 1 space radius of the turret. Lasts until
+the beginning of the players next turn. 
+
+-Curse: Place a curse on an empty or occupied space. At the end of the players next turn, if there is a move on the space
+it will be destroyed. Moves that are made into locked sets with a curse on them can still trigger the winning condition,
+but if it is not the 3rd locked set of the player, it will be destroyed and the locked set becomes unlocked. Cannot be
+placed on a locked set.
+
+-Air strike: Destroys all non-locked moves in a column or row of the players choosing 
+
+-Nuke (OP?): Destroys all non-locked moves on the board
+
+-Gem of true sight (dota reference cuz names are hard):reveals the opponents items until the beginning the the players
+next turn.
+
+-Force Staff (dota reference cuz names are hard): forces an opponent to use one of their items during their turn.
+
+-Move Obligation: forces an opponent to place a move on the board durning their turn. 
+
+-Item lock: prevents player's opponent from replacing their items during their turn. Items can still be used.
+
+-Swap: All of the players non-locked moves are swapped with their opponents non-locked moves. 
+
+-Randomize: All of the non-locked moves on the board are randomly rearranged on the board. Moves that are randomly
+rearranged into 3-in-a-row sets count and are locked. 
+
+-Board Grow: Forces the board to grow by 1 row on each size.
+
+-Board Shrink: Forces the board to shrink by 1 row on each side. All moves within the border of the board are destroyed,
+including locked sets. If the board growing condition is met at the beginning of the opponents turn, the board will grow 
+out again by 1 on each side. 
+
+
