@@ -1,0 +1,31 @@
+Rules:
+
+-2 Player (room for more players?)
+
+-Board starts of in a 3x3 grid
+When approximately 1/2 of the board area is covered in player moves, the board increases by one row on each side
+(i.e 3x3 -> 5x5 -> 7x7 -> 9x9)
+
+-Players need to make 3 sets of 3-in-a-row moves to be considered a winner
+This includes diagonals, horizontals, and verticals
+
+-Once a player gets 3-in-a-row, that set is "locked"
+
+-New 3-in-a-row sets cannot be attached to locked sets
+
+-Locked sets cannot be affected by item affects (subject to change)
+
+-A player is allowed to have up to 2 items in their possession. 
+At the beginning of each turn a player has the option to random an item. An item would be chosen at random and the player 
+can put the item in their possession. If a player already has 2 items, the player can discard/replace one of the items.
+
+-A player is allowed to either place a move or an item during their turn. Placing a move or an item on the board will end
+the players turn, the player isn't allowed to do both during the same turn. 
+
+
+Items:
+
+-bomb
+-super bomb
+-teleporter
+-
